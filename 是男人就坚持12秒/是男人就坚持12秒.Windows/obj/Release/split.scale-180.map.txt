@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\split.scale-180.pri"			"resources.pri"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\SplashScreen.scale-180.png"			"Assets\SplashScreen.scale-180.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\1116x540.scale-180.png"			"Assets\1116x540.scale-180.png"

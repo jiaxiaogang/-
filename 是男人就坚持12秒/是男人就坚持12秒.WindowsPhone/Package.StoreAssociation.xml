@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
+  <Publisher>CN=B22C2B5E-2135-43E6-AA0D-9F02A7A4496F</Publisher>
+  <PublisherDisplayName>贾晓刚</PublisherDisplayName>
+  <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
+  <SupportedLocales>
+    <Language Code="af" InMinimumRequirementSet="true" />
+    <Language Code="af-za" InMinimumRequirementSet="true" />
+    <Language Code="sq" InMinimumRequirementSet="true" />
+    <Language Code="sq-al" InMinimumRequirementSet="true" />
+    <Language Code="ar" InMinimumRequirementSet="true" />
+    <Language Code="ar-ae" InMinimumRequirementSet="true" />
+    <Language Code="ar-bh" InMinimumRequirementSet="true" />
+    <Language Code="ar-dz" InMinimumRequirementSet="true" />
+    <Language Code="ar-eg" InMinimumRequirementSet="true" />
+    <Language Code="ar-iq" InMinimumRequirementSet="true" />
+    <Language Code="ar-jo" InMinimumRequirementSet="true" />
+    <Language Code="ar-kw" InMinimumRequirementSet="true" />
+    <Language Code="ar-lb" InMinimumRequirementSet="true" />
+    <Language Code="ar-ly" InMinimumRequirementSet="true" />
+    <Language Code="ar-ma" InMinimumRequirementSet="true" />
+    <Language Code="ar-om" InMinimumRequirementSet="true" />
+    <Language Code="ar-qa" InMinimumRequirementSet="true" />
+    <Language Code="ar-sa" InMinimumRequirementSet="true" />
+    <Language Code="ar-sy" InMinimumRequirementSet="true" />
+    <Language Code="ar-tn" InMinimumRequirementSet="true" />
+    <Language Code="ar-ye" InMinimumRequirementSet="true" />
+    <Language Code="az-latn" InMinimumRequirementSet="true" />
+    <Language Code="az-latn-az" InMinimumRequirementSet="true" />
+    <Language Code="az" InMinimumRequirementSet="true" />
+    <Language Code="eu" InMinimumRequirementSet="true" />
+    <Language Code="eu-es" InMinimumRequirementSet="true" />
+    <Language Code="be" InMinimumRequirementSet="true" />
+    <Language Code="be-by" InMinimumRequirementSet="true" />
+    <Language Code="pt-br" InMinimumRequirementSet="true" />
+    <Language Code="bg" InMinimumRequirementSet="true" />
+    <Language Code="bg-bg" InMinimumRequirementSet="true" />
+    <Language Code="ca" InMinimumRequirementSet="true" />
+    <Language Code="ca-es" InMinimumRequirementSet="true" />
+    <Language Code="hr" InMinimumRequirementSet="true" />
+    <Language Code="hr-hr" InMinimumRequirementSet="true" />
+    <Language Code="hr-ba" InMinimumRequirementSet="true" />
+    <Language Code="cs" InMinimumRequirementSet="true" />
+    <Language Code="cs-cz" InMinimumRequirementSet="true" />
+    <Language Code="da" InMinimumRequirementSet="true" />
+    <Language Code="da-dk" InMinimumRequirementSet="true" />
+    <Language Code="nl" InMinimumRequirementSet="true" />
+    <Language Code="nl-nl" InMinimumRequirementSet="true" />
+    <Language Code="nl-be" InMinimumRequirementSet="true" />
+    <Language Code="en" InMinimumRequirementSet="true" />
+    <Language Code="en-gb" InMinimumRequirementSet="true" />
+    <Language Code="en-029" InMinimumRequirementSet="true" />
+    <Language Code="en-au" InMinimumRequirementSet="true" />
+    <Language Code="en-bz" InMinimumRequirementSet="true" />
+    <Language Code="en-ie" InMinimumRequirementSet="true" />
+    <Language Code="en-in" InMinimumRequirementSet="true" />
+    <Language Code="en-jm" InMinimumRequirementSet="true" />
+    <Language Code="en-my" InMinimumRequirementSet="true" />
+    <Language Code="en-nz" InMinimumRequirementSet="true" />
+    <Language Code="en-ph" InMinimumRequirementSet="true" />
+    <Language Code="en-sg" InMinimumRequirementSet="true" />
+    <Language Code="en-tt" InMinimumRequirementSet="true" />
+    <Language Code="en-za" InMinimumRequirementSet="true" />
+    <Language Code="en-zw" InMinimumRequirementSet="true" />
+    <Language Code="en-hk" InMinimumRequirementSet="true" />
+    <Language Code="en-us" InMinimumRequirementSet="true" />
+    <Language Code="en-ca" InMinimumRequirementSet="true" />
+    <Language Code="et" InMinimumRequirementSet="true" />
+    <Language Code="et-ee" InMinimumRequirementSet="true" />
+    <Language Code="fil" InMinimumRequirementSet="true" />
+    <Language Code="fil-ph" InMinimumRequirementSet="true" />
+    <Language Code="fi" InMinimumRequirementSet="true" />
+    <Language Code="fi-fi" InMinimumRequirementSet="true" />
+    <Language Code="fr" InMinimumRequirementSet="true" />
+    <Language Code="fr-fr" InMinimumRequirementSet="true" />
+    <Language Code="fr-ca" InMinimumRequirementSet="true" />
+    <Language Code="fr-ch" InMinimumRequirementSet="true" />
+    <Language Code="fr-be" InMinimumRequirementSet="true" />
+    <Language Code="fr-lu" InMinimumRequirementSet="true" />
+    <Language Code="fr-mc" InMinimumRequirementSet="true" />
+    <Language Code="gl" InMinimumRequirementSet="true" />
+    <Language Code="gl-es" InMinimumRequirementSet="true" />
+    <Language Code="de" InMinimumRequirementSet="true" />
+    <Language Code="de-de" InMinimumRequirementSet="true" />
+    <Language Code="de-ch" InMinimumRequirementSet="true" />
+    <Language Code="de-at" InMinimumRequirementSet="true" />
+    <Language Code="de-li" InMinimumRequirementSet="true" />
+    <Language Code="de-lu" InMinimumRequirementSet="true" />
+    <Language Code="el" InMinimumRequirementSet="true" />
+    <Language Code="el-gr" InMinimumRequirementSet="true" />
+    <Language Code="ha-latn" InMinimumRequirementSet="true" />
+    <Language Code="ha-latn-ng" InMinimumRequirementSet="true" />
+    <Language Code="ha" InMinimumRequirementSet="true" />
+    <Language Code="he" InMinimumRequirementSet="true" />
+    <Language Code="he-il" InMinimumRequirementSet="true" />
+    <Language Code="hi" InMinimumRequirementSet="true" />
+    <Language Code="hi-in" InMinimumRequirementSet="true" />
+    <Language Code="hu" InMinimumRequirementSet="true" />
+    <Language Code="hu-hu" InMinimumRequirementSet="true" />
+    <Language Code="id" InMinimumRequirementSet="true" />
+    <Language Code="id-id" InMinimumRequirementSet="true" />
+    <Language Code="it" InMinimumRequirementSet="true" />
+    <Language Code="it-it" InMinimumRequirementSet="true" />
+    <Language Code="it-ch" InMinimumRequirementSet="true" />
+    <Language Code="ja" InMinimumRequirementSet="true" />
+    <Language Code="ja-jp" InMinimumRequirementSet="true" />
+    <Language Code="kk" InMinimumRequirementSet="true" />
+    <Language Code="kk-kz" InMinimumRequirementSet="true" />
+    <Language Code="ko" InMinimumRequirementSet="true" />
+    <Language Code="ko-kr" InMinimumRequirementSet="true" />
+    <Language Code="sr-latn" InMinimumRequirementSet="true" />
+    <Language Code="sr-latn-ba" InMinimumRequirementSet="true" />
+    <Language Code="sr-latn-cs" InMinimumRequirementSet="true" />
+    <Language Code="sr-latn-me" InMinimumRequirementSet="true" />
+    <Language Code="sr-latn-rs" InMinimumRequirementSet="true" />
+    <Language Code="sr" InMinimumRequirementSet="true" />
+    <Language Code="lv" InMinimumRequirementSet="true" />
+    <Language Code="lv-lv" InMinimumRequirementSet="true" />
+    <Language Code="lt" InMinimumRequirementSet="true" />
+    <Language Code="lt-lt" InMinimumRequirementSet="true" />
+    <Language Code="mk" InMinimumRequirementSet="true" />
+    <Language Code="mk-mk" InMinimumRequirementSet="true" />
+    <Language Code="ms" InMinimumRequirementSet="true" />
+    <Language Code="ms-my" InMinimumRequirementSet="true" />
+    <Language Code="ms-bn" InMinimumRequirementSet="true" />
+    <Language Code="nb" InMinimumRequirementSet="true" />
+    <Language Code="nb-no" InMinimumRequirementSet="true" />
+    <Language Code="fa" InMinimumRequirementSet="true" />
+    <Language Code="fa-ir" InMinimumRequirementSet="true" />
+    <Language Code="pl" InMinimumRequirementSet="true" />
+    <Language Code="pl-pl" InMinimumRequirementSet="true" />
+    <Language Code="pt" InMinimumRequirementSet="true" />
+    <Language Code="pt-pt" InMinimumRequirementSet="true" />
+    <Language Code="ro" InMinimumRequirementSet="true" />
+    <Language Code="ro-ro" InMinimumRequirementSet="true" />
+    <Language Code="ru" InMinimumRequirementSet="true" />
+    <Language Code="ru-ru" InMinimumRequirementSet="true" />
+    <Language Code="zh" InMinimumRequirementSet="true" />
+    <Language Code="zh-cn" InMinimumRequirementSet="true" />
+    <Language Code="zh-hans" InMinimumRequirementSet="true" />
+    <Language Code="zh-sg" InMinimumRequirementSet="true" />
+    <Language Code="sk" InMinimumRequirementSet="true" />
+    <Language Code="sk-sk" InMinimumRequirementSet="true" />
+    <Language Code="sl" InMinimumRequirementSet="true" />
+    <Language Code="sl-si" InMinimumRequirementSet="true" />
+    <Language Code="es" InMinimumRequirementSet="true" />
+    <Language Code="es-es" InMinimumRequirementSet="true" />
+    <Language Code="es-mx" InMinimumRequirementSet="true" />
+    <Language Code="es-ar" InMinimumRequirementSet="true" />
+    <Language Code="es-bo" InMinimumRequirementSet="true" />
+    <Language Code="es-cl" InMinimumRequirementSet="true" />
+    <Language Code="es-co" InMinimumRequirementSet="true" />
+    <Language Code="es-cr" InMinimumRequirementSet="true" />
+    <Language Code="es-do" InMinimumRequirementSet="true" />
+    <Language Code="es-ec" InMinimumRequirementSet="true" />
+    <Language Code="es-gt" InMinimumRequirementSet="true" />
+    <Language Code="es-hn" InMinimumRequirementSet="true" />
+    <Language Code="es-ni" InMinimumRequirementSet="true" />
+    <Language Code="es-pa" InMinimumRequirementSet="true" />
+    <Language Code="es-pe" InMinimumRequirementSet="true" />
+    <Language Code="es-pr" InMinimumRequirementSet="true" />
+    <Language Code="es-py" InMinimumRequirementSet="true" />
+    <Language Code="es-sv" InMinimumRequirementSet="true" />
+    <Language Code="es-us" InMinimumRequirementSet="true" />
+    <Language Code="es-uy" InMinimumRequirementSet="true" />
+    <Language Code="es-ve" InMinimumRequirementSet="true" />
+    <Language Code="sv" InMinimumRequirementSet="true" />
+    <Language Code="sv-fi" InMinimumRequirementSet="true" />
+    <Language Code="sv-se" InMinimumRequirementSet="true" />
+    <Language Code="th" InMinimumRequirementSet="true" />
+    <Language Code="th-th" InMinimumRequirementSet="true" />
+    <Language Code="zh-hant" InMinimumRequirementSet="true" />
+    <Language Code="zh-hk" InMinimumRequirementSet="true" />
+    <Language Code="zh-mo" InMinimumRequirementSet="true" />
+    <Language Code="zh-tw" InMinimumRequirementSet="true" />
+    <Language Code="tr" InMinimumRequirementSet="true" />
+    <Language Code="tr-tr" InMinimumRequirementSet="true" />
+    <Language Code="uk" InMinimumRequirementSet="true" />
+    <Language Code="uk-ua" InMinimumRequirementSet="true" />
+    <Language Code="uz-latn" InMinimumRequirementSet="true" />
+    <Language Code="uz-latn-uz" InMinimumRequirementSet="true" />
+    <Language Code="uz" InMinimumRequirementSet="true" />
+    <Language Code="vi" InMinimumRequirementSet="true" />
+    <Language Code="vi-vn" InMinimumRequirementSet="true" />
+  </SupportedLocales>
+  <ProductReservedInfo>
+    <MainPackageIdentityName>43406.9512807721C8</MainPackageIdentityName>
+    <ReservedNames>
+      <ReservedName>凌波微步</ReservedName>
+    </ReservedNames>
+  </ProductReservedInfo>
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>43406.1573</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.9527</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.BingMap</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.cod</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.COD15</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.COD16</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Cotana</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Driver</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.DriverFile</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.File</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Ghost</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Http</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Micphone</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.MSDN</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.MyCar</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.OneDriver</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.OneFile</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.OneFiles</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.6254537830885</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.QQ</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.SD</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.1007157653E16</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.SmallBing</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.SuperRecord</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Surface</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.SurfacePhone</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.ThisPhone</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Wii</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.WithMe</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.Xbox360</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.XiaoBing</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.14369D93EFDDC</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.608738AF9328E</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.57026B8405FD</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.2236673B4EB16</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.6243081742156</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.27287AC23BEF1</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.630742E59D949</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.4620CE59038B</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.476415DB89350</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.22578E022A823</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.50060A5197EC5</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.202568760D1DA</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.61796B0FFB671</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.236527B26EB7B</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.2201849D7ABFA</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.43111A5D83CF7</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.1396567BE26B</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.20</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.3207176353BC7</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.5543911E8B63E</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.652706A57624</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.56995FE4EC3F7</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.46151DF461AF2</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.177964F4993EF</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.199293446EFF4</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.10768456CD617</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.42743E76FD38C</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.58756279F86A0</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.30419457A3FDA</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.53827D744AEA5</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.970609CC477B</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.13293B4086721</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.478015C69F4DE</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.308566B8EEF4D</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.29788D1D61F77</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.14617258D7976</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.4763478E1D1EB</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.5976156868D4</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.6195487C3F300</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.2207CBC2DD77</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.45016EE5E0802</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.395274835AD6</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.11</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.12</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.13</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.15</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.464707832E02F</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.632628BBA07F1</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.58149B9C1BA98</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.17879E821CB40</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.74110C60122E</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.257824C15A3FD</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.64516BA085073</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.365132186CE19</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.8729BD6CDD4</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.58546C35C408E</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.9542E72CFB99</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.62881C7C197BD</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.25353A142E884</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.14647AB7CCFFE</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.548616F941413</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.100881F2018A2</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.1739750180866</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.18501B8256F1D</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.6294221758CC1</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.305202FA5FCCC</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.64368262EEB29</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.10008C698883A</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.223786A516969</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.5841899C50384</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.567822041C19D</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.23559EDD78021</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.667316A71C72</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.4942089FE698F</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.441956FABA1D3</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.4</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.643997CB9469A</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.4816293F96917</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.132112FA1E4BF</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.226856E4D7555</MainPackageIdentityName>
+    <MainPackageIdentityName>43406.14772AAA6CC6D</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
+  <PackageInfoList LandingUrl="https://dev.windowsphone.com/AppSubmission/AssociationLanding?windowsProductId=4ba36cb8-bdd4-4d50-bb3f-761ea3054e20">
+    <PackageInfo>
+      <OsMinVersion>6.3.0.0</OsMinVersion>
+      <PackageArchitecture>neutral</PackageArchitecture>
+      <PackageMaxArchitectureVersion>1.3.1.8</PackageMaxArchitectureVersion>
+    </PackageInfo>
+  </PackageInfoList>
+</StoreAssociation>

@@ -1,0 +1,22 @@
+[ResourceMetadata]
+"ResourceDimensions"		"scale-100"
+"ResourceDimensions"		"language-zh-hans-cn"
+"ResourceDimensions"		"language-zh-CN"
+
+[Files]
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\split.pri"			"resources.pri"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\是男人就坚持12秒.Windows.xr.xml"			"是男人就坚持12秒.Windows.xr.xml"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\是男人就坚持12秒.Windows.exe"			"是男人就坚持12秒.Windows.exe"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\SmallMan.xbf"			"SmallMan.xbf"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\BlockRectangle.xbf"			"BlockRectangle.xbf"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\App.xbf"			"App.xbf"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Medias\gua.mp3"			"Medias\gua.mp3"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Images\SmallMan.png"			"Images\SmallMan.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\Wide310x150Logo.scale-100.png"			"Assets\Wide310x150Logo.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\Square310x310Logo.scale-100.png"			"Assets\Square310x310Logo.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\SplashScreen.scale-100.png"			"Assets\SplashScreen.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\SmallLogo.scale-100.png"			"Assets\SmallLogo.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\Logo.scale-100.png"			"Assets\Logo.scale-100.png"
+"C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Release\PackageLayout\Assets\1116x540.scale-100.png"			"Assets\1116x540.scale-100.png"

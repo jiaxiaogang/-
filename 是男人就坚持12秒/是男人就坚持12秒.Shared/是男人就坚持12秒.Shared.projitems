@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>159380e0-5adf-4ce2-9a39-db522371a7a6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>是男人就坚持12秒</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Block.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BlockRectangle.xaml.cs">
+      <DependentUpon>BlockRectangle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)boolVisibilityValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Map.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SmallMan.xaml.cs">
+      <DependentUpon>SmallMan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Theme.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)BlockRectangle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)SmallMan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Images\0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Images\SmallMan.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Medias\bo.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)Medias\gua.mp3" />
+  </ItemGroup>
+</Project>

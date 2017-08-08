@@ -1,0 +1,178 @@
+﻿<Page
+    x:Class="是男人就坚持12秒.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:是男人就坚持12秒"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    
+        <Page.Resources>
+            <ResourceDictionary>
+                <Storyboard x:ConnectionId='1' x:Name="sb1"                          >
+                    <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="-1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:ConnectionId='2' x:Name="sb2"                          >
+                    <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="0"
+                                 Duration="00:00:00.300"/>
+                </Storyboard>
+
+
+                <Storyboard x:ConnectionId='3' x:Name="FromFu1500ToFu300"                                        >
+                    <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-1500" To="-300"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:ConnectionId='4' x:Name="FromFu300DouDon"                                      >
+                    <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="-293"
+                                 AutoReverse="True"
+                                 RepeatBehavior="3X"
+                                 Duration="00:00:00.100"></DoubleAnimation>
+                </Storyboard>
+
+
+                <Storyboard x:Name="From0To1500">
+                    <DoubleAnimation Storyboard.TargetName="TransTransformDown"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+                </Storyboard>
+                <Storyboard x:Name="From1500To0">
+                    <DoubleAnimation Storyboard.TargetName="TransTransformDown"
+                                 Storyboard.TargetProperty="Y"
+                                 From="1500" To="0"
+                                 Duration="00:00:00.300"/>
+                </Storyboard>
+
+
+            </ResourceDictionary>
+        </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Background="Aqua">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"></RowDefinition>
+                <RowDefinition Height="6*"></RowDefinition>
+                <RowDefinition Height="7*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Rectangle Fill="YellowGreen" Grid.Row="0">
+                <Rectangle.RenderTransform>
+                    <TranslateTransform x:Name="TransTransform"></TranslateTransform>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Fill="YellowGreen" Grid.Row="2">
+                <Rectangle.RenderTransform>
+                    <TranslateTransform x:Name="TransTransformDown"></TranslateTransform>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <!--<Rectangle Fill="Black" Grid.Row="2"></Rectangle>-->
+            <!--<TextBlock Name="txtbScore"
+                   Text="{Binding  Path=watch.Elapsed, Mode=OneWay}"></TextBlock>-->
+
+
+
+
+            <Grid Name="GridSmallMan" Grid.Row="1">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Grid Name="GridMap" Grid.Row="1">
+                <Grid.RowDefinitions>
+
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Grid Name="GridControlLeftRight"  Grid.RowSpan="3" Opacity="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+
+
+
+
+            <Grid Name="GameOverGrid" Opacity="0.7" Visibility="Visible" Grid.RowSpan="3" Canvas.ZIndex="0">
+                <Rectangle Name="GameOverRectangle"
+                   Fill="Black"
+                   Opacity="0.8"></Rectangle>
+                <TextBlock Name="GameOverText"
+                   Text="凌波微步" 
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" 
+                   FontSize="40"></TextBlock>
+                <AppBarButton x:ConnectionId='5' Name="GameOverBtn"
+                      Label="开始学习" 
+                      Icon="Rotate"
+                      Margin="100"
+                      VerticalAlignment="Bottom"
+                      HorizontalAlignment="Center"                          ></AppBarButton>
+                <TextBlock Name="GameOverScore" 
+                       Text="00"
+                       FontSize="100"
+                       Foreground="Red"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,100,0,0"></TextBlock>
+                <!--Text="{Binding  Path=watch.Elapsed, Mode=OneWay}"-->
+
+            </Grid>
+
+
+            <!--<AppBarButton Name="StartGame" HorizontalAlignment="Center" VerticalAlignment="Bottom" Label="开始游戏" Click="StartGame_Click"></AppBarButton>-->
+
+
+            <MediaElement Name="mediaElement" AutoPlay="False" Source="ms-appx:///Medias/gua.mp3"></MediaElement>
+        </Grid>
+    </Grid>
+</Page>
+

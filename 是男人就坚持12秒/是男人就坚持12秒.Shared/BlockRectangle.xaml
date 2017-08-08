@@ -1,0 +1,93 @@
+﻿<UserControl
+    x:Class="是男人就坚持12秒.BlockRectangle"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:是男人就坚持12秒"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="50"
+    d:DesignWidth="50">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Storyboard x:Name="sb1">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="-1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+               
+            </Storyboard>
+
+            <Storyboard x:Name="sb2">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="0"
+                                 Duration="00:00:00.300"
+                                 FillBehavior="Stop"></DoubleAnimation>
+
+            </Storyboard>
+
+            <Storyboard x:Name="FromFu1500ToFu300">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-1500" To="-300"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+            <Storyboard x:Name="FromFu300DouDon" Completed="FromFu300DouDon_Completed">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="-293"
+                                 AutoReverse="True"
+                                 RepeatBehavior="3X"
+                                 Duration="00:00:00.100"></DoubleAnimation>
+            </Storyboard>
+
+            <Storyboard x:Name="FromFu1500To1500">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-1500" To="1500"
+                                 Duration="00:00:00"></DoubleAnimation>
+            </Storyboard>
+
+            <Storyboard x:Name="From1500ToFu1500">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="1500" To="-1500"
+                                 Duration="00:00:00"></DoubleAnimation>
+            </Storyboard>
+
+
+            <Storyboard x:Name="FromFu1500To0">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-1500" To="0"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+
+            <Storyboard x:Name="From1500To0">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="1500" To="0"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+
+            <Storyboard x:Name="From0To1500">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+
+
+
+            <local:boolVisibilityValueConverter x:Key="boolVisConverter"></local:boolVisibilityValueConverter>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Rectangle Name="rectangle" Fill="#FFC95504" Visibility="{Binding IsVis,Converter={StaticResource boolVisConverter}}">
+            <Rectangle.RenderTransform>
+                <TranslateTransform x:Name="TransTransform"></TranslateTransform>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+    </Grid>
+</UserControl>

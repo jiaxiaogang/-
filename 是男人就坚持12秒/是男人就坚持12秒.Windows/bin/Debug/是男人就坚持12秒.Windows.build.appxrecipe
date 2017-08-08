@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ESEA-PC64BIT</Machine>
+    <WindowsUser>xiaogang</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>43406.9512807721C8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\是男人就坚持12秒.Windows.exe">
+      <PackagePath>是男人就坚持12秒.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\1116x540.scale-100.png">
+      <PackagePath>Assets\1116x540.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\1116x540.scale-180.png">
+      <PackagePath>Assets\1116x540.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Shared\Images\SmallMan.png">
+      <PackagePath>Images\SmallMan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Shared\DataModel\1.xml">
+      <PackagePath>DataModel\1.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Shared\Medias\gua.mp3">
+      <PackagePath>Medias\gua.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\BlockRectangle.xbf">
+      <PackagePath>BlockRectangle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\SmallMan.xbf">
+      <PackagePath>SmallMan.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\是男人就坚持12秒.Windows.xr.xml">
+      <PackagePath>是男人就坚持12秒.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

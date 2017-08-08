@@ -1,0 +1,234 @@
+﻿<Page
+    x:Class="是男人就坚持12秒.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:是男人就坚持12秒"
+    
+    xmlns:primitives="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone.Controls.Toolkit"
+
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+    <Page.Resources>
+        <ResourceDictionary>
+            <Storyboard x:Name="sb1" Completed="sb1_Completed">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="-1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+            <Storyboard x:Name="sb2" Completed="sb2_Completed">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="0"
+                                 Duration="00:00:00.300"/>
+            </Storyboard>
+
+
+            <Storyboard x:Name="FromFu1500ToFu300" Completed="FromFu1500ToFu300_Completed">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-1500" To="-300"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+            <Storyboard x:Name="FromFu300DouDon" Completed="FromFu300DouDon_Completed">
+                <DoubleAnimation Storyboard.TargetName="TransTransform"
+                                 Storyboard.TargetProperty="Y"
+                                 From="-300" To="-293"
+                                 AutoReverse="True"
+                                 RepeatBehavior="3X"
+                                 Duration="00:00:00.100"></DoubleAnimation>
+            </Storyboard>
+
+
+            <Storyboard x:Name="From0To1500">
+                <DoubleAnimation Storyboard.TargetName="TransTransformDown"
+                                 Storyboard.TargetProperty="Y"
+                                 From="0" To="1500"
+                                 Duration="00:00:00.300"></DoubleAnimation>
+            </Storyboard>
+            <Storyboard x:Name="From1500To0">
+                <DoubleAnimation Storyboard.TargetName="TransTransformDown"
+                                 Storyboard.TargetProperty="Y"
+                                 From="1500" To="0"
+                                 Duration="00:00:00.300"/>
+            </Storyboard>
+
+
+        </ResourceDictionary>
+    </Page.Resources>
+    
+    <Grid Name="BackGroundColor" Background="#FFC3C3A0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Name="TopRec" Fill="#FFC95504" Grid.ColumnSpan="3" Grid.Row="0">
+            <Rectangle.RenderTransform>
+                <TranslateTransform x:Name="TransTransform"></TranslateTransform>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Name="BottomRec" Fill="#FFC95504" Grid.ColumnSpan="3" Grid.Row="2">
+            <Rectangle.RenderTransform>
+                <TranslateTransform x:Name="TransTransformDown"></TranslateTransform>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Grid Name="GridSmallMan" Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+              
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Name="GridMap" Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+              
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid Name="GridControlLeftRight"  Grid.RowSpan="3" Grid.ColumnSpan="3" Opacity="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+
+
+
+
+        <Grid Name="GameOverGrid" Opacity="0.8" Visibility="Visible" Grid.ColumnSpan="3" Grid.RowSpan="3" Canvas.ZIndex="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        <Rectangle Name="GameOverRectangle"
+                   Fill="Black"
+                   Opacity="0.8"
+                   Grid.RowSpan="4"></Rectangle>
+        <TextBlock Name="GameOverText"
+                   Text="凌波微步" 
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" 
+                   FontSize="40"
+                   Grid.Row="2"></TextBlock>
+        <AppBarButton Name="GameOverBtn"
+                      Label="开始学习" 
+                      Icon="Rotate"
+                      VerticalAlignment="Top"
+                      HorizontalAlignment="Center"
+                      Grid.Row="3"
+                      Click="GameOverBtn_Click"></AppBarButton>
+            <TextBlock Name="GameOverScore" 
+                       Text="00"
+                       FontSize="100"
+                       Foreground="Red"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Grid.Row="1"></TextBlock>
+            <TextBlock Name="JiRu"
+                       Text="最高记录:0步"
+                       FontSize="25"
+                       Foreground="Green"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Margin="10"
+                       Grid.Row="3"></TextBlock>
+            <Grid Name="gridMansPhoto" Grid.Row="0" Margin="40,0,40,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+         
+
+        </Grid>
+
+        <ListView Name="lvTheme"
+                      HorizontalAlignment="Left"
+                  Margin="7,0,0,0"
+                      VerticalAlignment="Bottom"
+                      Grid.RowSpan="3"
+                      Width="25"
+                      Height="700"
+                      Grid.Column="0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Rectangle Width="25" Height="25" Fill="{Binding ThemeBackground}"></Rectangle>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView Name="lvThemeBackGround"
+                      HorizontalAlignment="Right"
+                  Margin="0,0,7,0"
+                      VerticalAlignment="Bottom"
+                      Grid.RowSpan="3"
+                      Grid.Column="2"
+                      Width="25"
+                      Height="700">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Rectangle Width="25" Height="25" Fill="{Binding ThemeBackground}"></Rectangle>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!--<AppBarButton Name="StartGame" HorizontalAlignment="Center" VerticalAlignment="Bottom" Label="开始游戏" Click="StartGame_Click"></AppBarButton>-->
+        <!--<TextBlock Text="最高记录："></TextBlock>
+        <TextBlock Name="txtbHighSco"></TextBlock>-->
+        <MediaElement Name="bo" AutoPlay="False" Source="ms-appx:///Medias/bo.mp3"></MediaElement>
+        <MediaElement Name="mediaElement" AutoPlay="False" Source="ms-appx:///Medias/gua.mp3"></MediaElement>
+    </Grid>
+</Page>

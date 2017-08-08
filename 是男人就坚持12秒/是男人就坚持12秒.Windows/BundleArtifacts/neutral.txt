@@ -1,0 +1,3 @@
+MainPackage=C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Release\是男人就坚持12秒.Windows_1.1.1.1_Bundle\是男人就坚持12秒.Windows_1.1.1.1_AnyCPU.appx
+SymbolPackage=C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\AppPackages\是男人就坚持12秒.Windows_1.1.1.1_Test\是男人就坚持12秒.Windows_1.1.1.1_AnyCPU.appxsym
+ResourcePack=C:\Users\xiaogang\Desktop\是男人就坚持12秒\是男人就坚持12秒\是男人就坚持12秒.Windows\bin\Release\是男人就坚持12秒.Windows_1.1.1.1_Bundle\是男人就坚持12秒.Windows_1.1.1.1_scale-180.appx
